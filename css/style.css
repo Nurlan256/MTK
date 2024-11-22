@@ -1615,7 +1615,29 @@ margin:5px 0 5px 0;
 	a.btn-dark.btn-id{
 	color:#fff;
 	}
+
+	#mainmenu li a.btn-rounded {
+		margin: 20px;
+		font-weight: bold;
+		padding: 5px 10px; /* Adjust to match the menu items */
+		background-color: #ffd200; /* Same as before for the rounded button */
+		color: #fff; /* White text for better contrast */
+		text-transform: uppercase;
+		border-radius: 50px;
+		letter-spacing: 1px;
+		text-align: center;
+		text-decoration: none;
+		transition: all 0.3s ease-in-out;
+		display: inline-block;
+	}
 	
+	#mainmenu li a.btn-rounded:hover {
+		background-color: #ffffff;
+		color: #000;
+	}
+	
+	
+
 	a.btn-custom{
 	padding:10px 25px 10px 25px;
 	font-weight:bold;
